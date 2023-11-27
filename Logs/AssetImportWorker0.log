@@ -1,0 +1,1577 @@
+Unity Editor version:    2022.3.11f1 (d00248457e15)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.1 (Build 23B81)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/saiganeshs/FireFinal
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58843
+Successfully changed project path to: /Users/saiganeshs/FireFinal
+/Users/saiganeshs/FireFinal
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8017075904] Host "[IP] 10.2.83.103 [Port] 0 [Flags] 2 [Guid] 3114211203 [EditorId] 3114211203 [Version] 1048832 [Id] OSXEditor(0,Saiganeshs-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8017075904] Host "[IP] 10.2.83.103 [Port] 0 [Flags] 2 [Guid] 3114211203 [EditorId] 3114211203 [Version] 1048832 [Id] OSXEditor(0,Saiganeshs-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 17.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/saiganeshs/FireFinal/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 (high power)
+Metal devices available: 1
+0: Apple M2 (high power)
+Using device Apple M2 (high power)
+Initializing Metal device caps: Apple M2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56313
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003884 seconds.
+- Loaded All Assemblies, in  0.310 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.140 seconds
+Domain Reload Profiling: 451ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (106ms)
+				TypeCache.ScanAssembly (82ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (140ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (101ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (67ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.646 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.409 seconds
+Domain Reload Profiling: 1043ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (514ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (113ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (409ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.32 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (1.3 MB). Loaded Objects now: 3753.
+Memory consumption went from 241.7 MB to 240.5 MB.
+Total: 4.721375 ms (FindLiveObjects: 0.171334 ms CreateObjectMapping: 0.063875 ms MarkObjects: 4.181375 ms  DeleteObjects: 0.304166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 154611.303282 seconds.
+  path: Assets/Apartment_Door
+  artifactKey: Guid(45d52c36972c8d84dbf1190368fec416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door using Guid(45d52c36972c8d84dbf1190368fec416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6955344f60eb602b2f74312a65b4a59a') in 0.001890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.244683 seconds.
+  path: Assets/Apartment_Door/Scripts
+  artifactKey: Guid(067b06f1ebb6caa498919c6dcc5fc5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Scripts using Guid(067b06f1ebb6caa498919c6dcc5fc5c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09eeecaa54d0f9f892b4eba371eae638') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.436892 seconds.
+  path: Assets/Apartment_Door/Scripts/DoorController.cs
+  artifactKey: Guid(150cf7940ab0e6c4bbaf184a87998a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Scripts/DoorController.cs using Guid(150cf7940ab0e6c4bbaf184a87998a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f990fc9f1ed152d7e2aadeeba7e90eb3') in 0.000318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.754354 seconds.
+  path: Assets/Apartment_Door/Scripts/DoorControl.cs
+  artifactKey: Guid(150cf7940ab0e6c4bbaf184a87998a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Scripts/DoorControl.cs using Guid(150cf7940ab0e6c4bbaf184a87998a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bb660c2bcb4563897828d5229ecc6c7') in 0.001078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.499700 seconds.
+  path: Assets/Apartment_Door/Scripts/DoorControl.cs
+  artifactKey: Guid(150cf7940ab0e6c4bbaf184a87998a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Apartment_Door/Scripts/DoorControl.cs using Guid(150cf7940ab0e6c4bbaf184a87998a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dad8304967a5391ad0ac67234992fab') in 0.001118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28276b000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.303 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.033 seconds
+Domain Reload Profiling: 1336ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (1033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (207ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3756.
+Memory consumption went from 233.8 MB to 232.5 MB.
+Total: 2.695666 ms (FindLiveObjects: 0.134417 ms CreateObjectMapping: 0.067000 ms MarkObjects: 2.352167 ms  DeleteObjects: 0.141500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16da33000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.325 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.870 seconds
+Domain Reload Profiling: 1196ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (192ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (871ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (167ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3759.
+Memory consumption went from 239.1 MB to 237.9 MB.
+Total: 3.006084 ms (FindLiveObjects: 0.145666 ms CreateObjectMapping: 0.051584 ms MarkObjects: 2.514500 ms  DeleteObjects: 0.293917 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 438.226442 seconds.
+  path: Assets/SOUNDS4U
+  artifactKey: Guid(a153ea0af18f7054c8287edc7cf0aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U using Guid(a153ea0af18f7054c8287edc7cf0aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d435813b14d3d7f100e51254f4f719') in 0.018786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.168590 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds
+  artifactKey: Guid(07e571bb1ca94d54595cf6625e63a5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds using Guid(07e571bb1ca94d54595cf6625e63a5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd674467d44737f4673a72c1ff6f506ec') in 0.000980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.538733 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass
+  artifactKey: Guid(99c8e8bd63dc9f543b85531bc15c7664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass using Guid(99c8e8bd63dc9f543b85531bc15c7664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee69d6acd1f9916d51e75c01b64a5b9f') in 0.000425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.396979 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_1.wav
+  artifactKey: Guid(b5574900a0782704cb201eca087b51d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_1.wav using Guid(b5574900a0782704cb201eca087b51d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca988b5f4d12547d42e4f4262239516') in 0.133522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_10.wav
+  artifactKey: Guid(3407196d165ea2847a9f4fc10e9e43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_10.wav using Guid(3407196d165ea2847a9f4fc10e9e43c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7db3ad0be992e0d02ad531431e8dcab') in 0.003439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_13.wav
+  artifactKey: Guid(e6c25399d2be3ee469d773aed04e0e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_13.wav using Guid(e6c25399d2be3ee469d773aed04e0e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d17b03e06b6d1f0742ae726d0a1086') in 0.006325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_5.wav
+  artifactKey: Guid(cb6015520c8213f41876228920c62f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_5.wav using Guid(cb6015520c8213f41876228920c62f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f87bccf378289d0e3ca91090bd0b77f') in 0.008228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_15.wav
+  artifactKey: Guid(70294053025e07040a7c3da8fd8a4672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_15.wav using Guid(70294053025e07040a7c3da8fd8a4672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99940d894c4e338a6ebf85a6b46b5592') in 0.003504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_4.wav
+  artifactKey: Guid(9b7d5892bfa61344d91de42936a26a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_4.wav using Guid(9b7d5892bfa61344d91de42936a26a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f34a4f89b61e9200d870076c1169e8') in 0.004098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_11.wav
+  artifactKey: Guid(4a89b3c76fb3e4b42adf874888fd043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_11.wav using Guid(4a89b3c76fb3e4b42adf874888fd043d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0160f217b6e70634dc8fe5ef17b13b8') in 0.007757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_3.wav
+  artifactKey: Guid(d44b7a425c51a8847a066fc637c6ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/01_Grass/Footstep_Grass_3.wav using Guid(d44b7a425c51a8847a066fc637c6ee6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd029e9a574485faf237fa4818d75e6f') in 0.003092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 31.368539 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels
+  artifactKey: Guid(e52f5f31c8a1cc441adf1ae55315e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels using Guid(e52f5f31c8a1cc441adf1ae55315e25d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b41d5ba9e3b23b7794cb94676f82813') in 0.002327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.520869 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood
+  artifactKey: Guid(2b16adfc822b6ba40b6878aa9f0106e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood using Guid(2b16adfc822b6ba40b6878aa9f0106e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e77b4f42847a2ef720e17b2e1e55ce0') in 0.000788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.151671 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_1.wav
+  artifactKey: Guid(a6e184681fc39c04d81017b1ea47ac02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_1.wav using Guid(a6e184681fc39c04d81017b1ea47ac02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e67338dbe816bbd7fba8ebe853b5a7') in 0.019743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_17.wav
+  artifactKey: Guid(d8523fde181439646b05bfcc51c71db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_17.wav using Guid(d8523fde181439646b05bfcc51c71db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940fa8addf2ba8a417aff911d671aa53') in 0.004530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_20.wav
+  artifactKey: Guid(3022f290d6c93954b96d4f3d2ebbc4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_20.wav using Guid(3022f290d6c93954b96d4f3d2ebbc4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcebcfc435f877cd22844d5a6f3a519b') in 0.003826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_14.wav
+  artifactKey: Guid(f5674deb8175c3b459496c4bc60bcafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_14.wav using Guid(f5674deb8175c3b459496c4bc60bcafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b980a9d41c05cb2e3b6937e2013fc0bf') in 0.005229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_3.wav
+  artifactKey: Guid(8e9d39481c71f0246ac572962a5e906d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_3.wav using Guid(8e9d39481c71f0246ac572962a5e906d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d0a6f01ca6389b35a3f57efb9b51f3') in 0.003690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_16.wav
+  artifactKey: Guid(8ed2fd5111179694282b20b3a548a4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_16.wav using Guid(8ed2fd5111179694282b20b3a548a4c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffe64c7976ce842df86be1d087580e7') in 0.005295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_11.wav
+  artifactKey: Guid(865ab0893404bb44dbb5922f5c656eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_11.wav using Guid(865ab0893404bb44dbb5922f5c656eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac92351a4bda37c8c8bd564e98991cb8') in 0.009051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_6.wav
+  artifactKey: Guid(52ac4d18a4413b746bf7f07a9df1d393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_6.wav using Guid(52ac4d18a4413b746bf7f07a9df1d393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85ef8bb79a7352e7ea3d1b85eb67738e') in 0.003483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_13.wav
+  artifactKey: Guid(4d19440128b744b4c8fb200b66089935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_13.wav using Guid(4d19440128b744b4c8fb200b66089935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6e266cd5484fd7443694818e3cf639') in 0.003086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_18.wav
+  artifactKey: Guid(5908455f39aa2c34ab91e6b498dc757a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/03_Wood/Footstep_Wood_18.wav using Guid(5908455f39aa2c34ab91e6b498dc757a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733ca2e0b36e39314cf7d30b021b99ae') in 0.003899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d4bb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.320 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1050ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (186ms)
+		LoadAssemblies (193ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (206ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3772.
+Memory consumption went from 247.0 MB to 245.7 MB.
+Total: 3.142750 ms (FindLiveObjects: 0.133333 ms CreateObjectMapping: 0.059667 ms MarkObjects: 2.785458 ms  DeleteObjects: 0.163500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d4bb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.313 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 978ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (197ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (664ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3775.
+Memory consumption went from 252.4 MB to 251.1 MB.
+Total: 2.258334 ms (FindLiveObjects: 0.123667 ms CreateObjectMapping: 0.049959 ms MarkObjects: 1.931166 ms  DeleteObjects: 0.152875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d4bb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.250 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 945ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (27ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3778.
+Memory consumption went from 257.5 MB to 256.2 MB.
+Total: 2.352250 ms (FindLiveObjects: 0.124750 ms CreateObjectMapping: 0.055791 ms MarkObjects: 2.021709 ms  DeleteObjects: 0.149625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d4bb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.275 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 950ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (166ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (674ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3781.
+Memory consumption went from 262.6 MB to 261.3 MB.
+Total: 2.463167 ms (FindLiveObjects: 0.122667 ms CreateObjectMapping: 0.056708 ms MarkObjects: 2.127042 ms  DeleteObjects: 0.156250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 309.314214 seconds.
+  path: Assets/CasualGameSounds
+  artifactKey: Guid(51b23fc625e814015a6d7231670c2931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds using Guid(51b23fc625e814015a6d7231670c2931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfea93718722b2dab5708ecaadf30b5') in 0.017418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.037078 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-01.wav
+  artifactKey: Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-01.wav using Guid(32d4b1811dda14a6cb9e059ee8ad17d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3032400f19b3f141974164c5581cce02') in 0.054806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-18.wav
+  artifactKey: Guid(2667a0a008b044e218b63df62e2be749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-18.wav using Guid(2667a0a008b044e218b63df62e2be749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e798fa4879e47339b657b7ef0d8984c0') in 0.008035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-38.wav
+  artifactKey: Guid(84e427d6b66ab4066b6a4dcd0ce819ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-38.wav using Guid(84e427d6b66ab4066b6a4dcd0ce819ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0417f9106d9386a74dc50977c5d1ba88') in 0.011876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-30.wav
+  artifactKey: Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-30.wav using Guid(130a177e727814a2ea78a886ab72213d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f0559e1c668cd0c95765f829ff357f') in 0.008291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-25.wav
+  artifactKey: Guid(5fdb13d3756c84fecac96f5a2d124370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-25.wav using Guid(5fdb13d3756c84fecac96f5a2d124370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f25ef463e3d4a94109e032275dea04') in 0.003036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-17.wav
+  artifactKey: Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-17.wav using Guid(b9eff218e132a4e76be78840eca96fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7db2e6b0581a136bee266ed5ec3c0e') in 0.003230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-07.wav
+  artifactKey: Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-07.wav using Guid(2c5292ba5cf254919a6b9e2b18e04f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69481d8ee8a963d984bea7693f8e33f1') in 0.005046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-04.wav
+  artifactKey: Guid(c5e2a73ad4706440f93bf05df0b465fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-04.wav using Guid(c5e2a73ad4706440f93bf05df0b465fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '109b04e859883d721d868eeef4f3004d') in 0.002742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-14.wav
+  artifactKey: Guid(b6428d4edb06344ba829da4edd9967c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-14.wav using Guid(b6428d4edb06344ba829da4edd9967c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a21fe767147ab306190358159d820d') in 0.002833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-40.wav
+  artifactKey: Guid(0994c12e202f342459a4212e7287f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-40.wav using Guid(0994c12e202f342459a4212e7287f7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2e1eade1795b0ef2ae5da648912166') in 0.003536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-03.wav
+  artifactKey: Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-03.wav using Guid(19f89c6e740e7447f9e12a8310d3e973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3202d52d890723248328692c9301c1d7') in 0.004204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-06.wav
+  artifactKey: Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-06.wav using Guid(a235d590ef2a04d1b85b61ef4c21337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68bbe0b541b91424d870fc6a763a06b0') in 0.003049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-22.wav
+  artifactKey: Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-22.wav using Guid(d8d04c6f80a1140db85ede568dab1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b50498f71ec6d1a0dcfc698f5b43de1') in 0.004900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-12.wav
+  artifactKey: Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-12.wav using Guid(7478151cf36724a7dada558f746c3633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa14aa71df452c52a8f78f54f1a1a98') in 0.016649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-42.wav
+  artifactKey: Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-42.wav using Guid(38a17a92b9d9748c6a1e67972041b833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ecd1378160df651541ada566976830b') in 0.010446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-32.wav
+  artifactKey: Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-32.wav using Guid(29bde6326b4c34ad8a12da475f79b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023dffe5c0acbb0804c8be9fef01216f') in 0.004485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-29.wav
+  artifactKey: Guid(80e397195ea2940b69ee7bdbded856a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-29.wav using Guid(80e397195ea2940b69ee7bdbded856a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0cb1916772723ee52feb0eb0fe6d2ff') in 0.026846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-08.wav
+  artifactKey: Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-08.wav using Guid(4e1ff8faed12a475eba9be0e46072269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273d5a14609020c77a054e4923b7d384') in 0.005042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-09.wav
+  artifactKey: Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-09.wav using Guid(ff5f85da24bc943d1abdc5760a22bc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f89c87c73ecd53fc218dbc52a99873d') in 0.003289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-13.wav
+  artifactKey: Guid(72127805eb2bc4e7fbf2e02eca266cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-13.wav using Guid(72127805eb2bc4e7fbf2e02eca266cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0fb43cd187e29edfbd8c0398b57bb2') in 0.004949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-21.wav
+  artifactKey: Guid(ffb159a21c8a04135a5616979c828fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-21.wav using Guid(ffb159a21c8a04135a5616979c828fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7acf79605926a275c0273037952cb5d4') in 0.004623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-28.wav
+  artifactKey: Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-28.wav using Guid(79180f511d89441b9aa23ccae1992fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994cbca3cdfa2067b0ba7d17ee205e97') in 0.004208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-34.wav
+  artifactKey: Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-34.wav using Guid(881e3f52c86c94f26a60718d35627cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6d8741c3f2165ba6360d5a53a82d39') in 0.004194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.717921 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-46.wav
+  artifactKey: Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-46.wav using Guid(fe0b1f9aeb45b41b089175aeeabd5d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f6276f171365f6b2d80fea230cf429') in 0.009264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-49.wav
+  artifactKey: Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-49.wav using Guid(7bef0064f8567430cac22499c6b93d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6825b03e9277ddb971b08374a354aa') in 0.008475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/CasualGameSounds/DM-CGS-50.wav
+  artifactKey: Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CasualGameSounds/DM-CGS-50.wav using Guid(79e6baad2fd414b82a6d49ce1568d2e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22046ebf1ffce34e6910fda9b3434155') in 0.004873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.146973 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels
+  artifactKey: Guid(8bcefcd86ce4e2d4293d8f5d47477414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels using Guid(8bcefcd86ce4e2d4293d8f5d47477414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d8b14ba3cfa84148e89ed4e51b4cbc') in 0.001551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.997448 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_1.wav
+  artifactKey: Guid(1ac8c66469ab4874087864f7dccd632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_1.wav using Guid(1ac8c66469ab4874087864f7dccd632b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c064f69d62d5cc548179cb17ea98224e') in 0.014535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_11.wav
+  artifactKey: Guid(a21c5c29dff762145aa8369d0f3fef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_11.wav using Guid(a21c5c29dff762145aa8369d0f3fef2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b7d9dfc566be3f63ce1976d0e52a8e') in 0.004147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_7.wav
+  artifactKey: Guid(80ff7c5ef5c27b0419e4c8dee6519b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_7.wav using Guid(80ff7c5ef5c27b0419e4c8dee6519b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0215c435c11842ed5be7b327fd61df75') in 0.003379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_10.wav
+  artifactKey: Guid(f4cbf1d92986e9848991ce1f4853208d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_10.wav using Guid(f4cbf1d92986e9848991ce1f4853208d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa12182d9f1d2e4e73b505681f7b849') in 0.012527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_3.wav
+  artifactKey: Guid(26acaa7b78ac49040a1b5b3fa94e9dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_3.wav using Guid(26acaa7b78ac49040a1b5b3fa94e9dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cbf319ca9178d9d515fe10487cc6f0') in 0.003176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_13.wav
+  artifactKey: Guid(b4c6ac9d86d031d43b9369aa286fed5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_13.wav using Guid(b4c6ac9d86d031d43b9369aa286fed5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8357e1614a533769e6b8123727477f35') in 0.003074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_15.wav
+  artifactKey: Guid(9803f8c8fa7e7cc439ea900a14add189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_15.wav using Guid(9803f8c8fa7e7cc439ea900a14add189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48d59c7ab684e76932b0f03ba11fbf1') in 0.003278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_4.wav
+  artifactKey: Guid(e964805e9d158a04ebba0dbc3180e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/11_Concrete_HighHeels/Footstep_Concrete_HighHeels_4.wav using Guid(e964805e9d158a04ebba0dbc3180e87c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ddd74b39c96f1aac8893c16dae0afe4') in 0.004770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.518772 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks
+  artifactKey: Guid(a48158ab7fb41d54a808d1daead80b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks using Guid(a48158ab7fb41d54a808d1daead80b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7955ae567ae11a7c8ba5f5e69e425f') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.111876 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_1.wav
+  artifactKey: Guid(559c0c1427ed24d4a966cde21170d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_1.wav using Guid(559c0c1427ed24d4a966cde21170d42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0506bd2e9e90625012b1d6fb2991b8c6') in 0.005215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_6.wav
+  artifactKey: Guid(1240e6f45c5404d46a5ad32ee9813808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_6.wav using Guid(1240e6f45c5404d46a5ad32ee9813808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d054051b2a2cc0b0634377dd802e0e5') in 0.003123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_18.wav
+  artifactKey: Guid(c866fdec166e49a47b11a39e4675b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_18.wav using Guid(c866fdec166e49a47b11a39e4675b496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0dbf2ec20d606dfaaa168509afce9e8') in 0.002808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_8.wav
+  artifactKey: Guid(14d53ff2138ea484590556a1a99c2792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_8.wav using Guid(14d53ff2138ea484590556a1a99c2792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61451c86f1ace6aa5385300c8f995c3f') in 0.005973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_16.wav
+  artifactKey: Guid(f13d580c9a7edc442a3c22f0caea5356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_16.wav using Guid(f13d580c9a7edc442a3c22f0caea5356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863922611c18d686554d98a7470ca93e') in 0.002808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_12.wav
+  artifactKey: Guid(d91d7a1575e55a74f9232170d04c272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_12.wav using Guid(d91d7a1575e55a74f9232170d04c272f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063469c4d293c1be9d6599e9b14a0ce5') in 0.003328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_13.wav
+  artifactKey: Guid(6a5dde5d0f57cb0498b2872c363867ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_13.wav using Guid(6a5dde5d0f57cb0498b2872c363867ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0f26e7d867dd6d6350b12e00efe9b6') in 0.004478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_5.wav
+  artifactKey: Guid(5784d96a0addfa44ea948346aa13934a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_5.wav using Guid(5784d96a0addfa44ea948346aa13934a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50acb6da7c69f2a8ac9f096e1ee692b5') in 0.003201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_3.wav
+  artifactKey: Guid(c6965441f4578e34099f2fb1e2b62a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/02_Small_Rocks/Footstep_Small_Rocks_3.wav using Guid(c6965441f4578e34099f2fb1e2b62a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6072e19cdf3be355678aa86bf1ae45c9') in 0.002905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 28.724111 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/15_Water_+_Rocks
+  artifactKey: Guid(e9bae9c09affeda4b84d351824bd9ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/15_Water_+_Rocks using Guid(e9bae9c09affeda4b84d351824bd9ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269e35ff8235ff738253914d941088c3') in 0.002221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.490835 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/15_Water_+_Rocks/Footstep_WaterRocks_1.wav
+  artifactKey: Guid(dbc5b6e53a92dd64ba11161ea8c41034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/15_Water_+_Rocks/Footstep_WaterRocks_1.wav using Guid(dbc5b6e53a92dd64ba11161ea8c41034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '419886f50bf0cfccf4524814c580bd53') in 0.023966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/15_Water_+_Rocks/Footstep_WaterRocks_3.wav
+  artifactKey: Guid(6e5161c46213b6044bbe59c02320d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/15_Water_+_Rocks/Footstep_WaterRocks_3.wav using Guid(6e5161c46213b6044bbe59c02320d023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0520bcae13ff5c07693242668d87ddb') in 0.004477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/15_Water_+_Rocks/Footstep_WaterRocks_4.wav
+  artifactKey: Guid(9b24eb5583cce334ab72ed89877a424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/15_Water_+_Rocks/Footstep_WaterRocks_4.wav using Guid(9b24eb5583cce334ab72ed89877a424f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8478f6ff9ed41baf24129caeac884c61') in 0.004026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.159858 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1
+  artifactKey: Guid(ff127536402d3fc489803c22d4b43d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1 using Guid(ff127536402d3fc489803c22d4b43d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb70c44a2726edc5d40f95ba91bb41e') in 0.000800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088648 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_1.wav
+  artifactKey: Guid(c42bdf8168656984b95cac20806c772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_1.wav using Guid(c42bdf8168656984b95cac20806c772d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f8796a6bd6d81cef4159c1c1a09110a') in 0.006764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_13.wav
+  artifactKey: Guid(84694ebd066f7d44982bc97e61bc5faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_13.wav using Guid(84694ebd066f7d44982bc97e61bc5faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80e694b2d56a1b7281cee7d204e36b98') in 0.010374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_7.wav
+  artifactKey: Guid(224ddc4b229a26e4dae1bb51b89cbcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_7.wav using Guid(224ddc4b229a26e4dae1bb51b89cbcce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65baad67c2dfb1b94ab686c976e369c') in 0.003330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_11.wav
+  artifactKey: Guid(16496b1085086324b86ebf1b30f4bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_11.wav using Guid(16496b1085086324b86ebf1b30f4bf8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a81e866f4ca9336c138e3e791795e7') in 0.003069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_10.wav
+  artifactKey: Guid(5fd2a1f49a772e34d925ca451684ca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_10.wav using Guid(5fd2a1f49a772e34d925ca451684ca32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2841d65fdfbc8fc47b0e62cf7953bf') in 0.003266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_9.wav
+  artifactKey: Guid(c6a00939144827e4181807ca9e9bfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_9.wav using Guid(c6a00939144827e4181807ca9e9bfa62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cad5fdb386279984a6ec7387b2747f') in 0.006895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_8.wav
+  artifactKey: Guid(82f511ef93af12a45954562c4ec74fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/06_Metal_1/Footstep_Metal_1_8.wav using Guid(82f511ef93af12a45954562c4ec74fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e5f33ee42d6ffc32cc4208186e9dfb') in 0.002947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.969791 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_1.wav
+  artifactKey: Guid(3c664a6a7d0ccfd45985ea2de7165f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_1.wav using Guid(3c664a6a7d0ccfd45985ea2de7165f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3bb6ce5365ee3d58e33ac572fa6d5b') in 0.005637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_7.wav
+  artifactKey: Guid(23ec5b6a0de783741a4dacfa9deb846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_7.wav using Guid(23ec5b6a0de783741a4dacfa9deb846b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd267e2bc255536684dd04e863b23a8a1') in 0.002736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_6.wav
+  artifactKey: Guid(492d888f5d98acc4697a18156915f9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_6.wav using Guid(492d888f5d98acc4697a18156915f9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06007ed2bc1fb7ea877cac3d155d8286') in 0.003049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_13.wav
+  artifactKey: Guid(654cf148ec7cac141827e9c651af3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_13.wav using Guid(654cf148ec7cac141827e9c651af3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a86350c176708dd067a0e3611e3a7dc') in 0.005888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_9.wav
+  artifactKey: Guid(2ee0695c12adf77428a3b3c9708e1e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_9.wav using Guid(2ee0695c12adf77428a3b3c9708e1e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d8c1db641911f9519597b419c40894') in 0.009873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_4.wav
+  artifactKey: Guid(b2252794772841a44ab2cfdc97e73cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_4.wav using Guid(b2252794772841a44ab2cfdc97e73cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d90625b712f501fa8cf87b372106d3') in 0.002805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_3.wav
+  artifactKey: Guid(efc6c5aac8985b742a5d272f9a09bc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SOUNDS4U/Footsteps Sounds/13_Wood_HighHeels/Footstep_Wood_HighHeels_3.wav using Guid(efc6c5aac8985b742a5d272f9a09bc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8db232c20f7720648cfdc042f9870ab') in 0.003227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d4bb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.286 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.686 seconds
+Domain Reload Profiling: 973ms
+	BeginReloadAssembly (79ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (223ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (181ms)
+			ProcessInitializeOnLoadMethodAttributes (9ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3784.
+Memory consumption went from 267.8 MB to 266.5 MB.
+Total: 2.744959 ms (FindLiveObjects: 0.204459 ms CreateObjectMapping: 0.070750 ms MarkObjects: 2.207500 ms  DeleteObjects: 0.261584 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 313.882477 seconds.
+  path: Assets/info.png
+  artifactKey: Guid(2ecd4c9bc1887415eaf053c90dc80bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/info.png using Guid(2ecd4c9bc1887415eaf053c90dc80bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1420b87e1bb8f94c2ba0cdfaf8c4a21e') in 0.180841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.015602 seconds.
+  path: Assets/info.png
+  artifactKey: Guid(2ecd4c9bc1887415eaf053c90dc80bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/info.png using Guid(2ecd4c9bc1887415eaf053c90dc80bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c268fca0e6e2adbc7a795efeb241cda5') in 0.065070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 90.797223 seconds.
+  path: Assets/AssetsNew/Prefabs2/DestinationPoint/Materials/ActiveBase.mat
+  artifactKey: Guid(3d1f77cbaf1565947a51178571168b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsNew/Prefabs2/DestinationPoint/Materials/ActiveBase.mat using Guid(3d1f77cbaf1565947a51178571168b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbf80d0de3950445be528596f6d7055') in 0.184053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SciFi_Battery_Pack_free/Textures/Background_Grid.mat
+  artifactKey: Guid(5317f3e76581f4165b16ede5caa5f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SciFi_Battery_Pack_free/Textures/Background_Grid.mat using Guid(5317f3e76581f4165b16ede5caa5f14b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d26c92b2c807f0fcbdb2e5083b1895b') in 0.008220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Old Sign Roads/Scene/Background.mat
+  artifactKey: Guid(6511309f2d5d65e4683a55a3e2d103f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Old Sign Roads/Scene/Background.mat using Guid(6511309f2d5d65e4683a55a3e2d103f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f417e7eb4c370b156a5ebdaacba0fb0c') in 0.115846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d4bb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.317 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 990ms
+	BeginReloadAssembly (82ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (29ms)
+			ProcessInitializeOnLoadAttributes (159ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3825.
+Memory consumption went from 274.1 MB to 272.9 MB.
+Total: 2.567875 ms (FindLiveObjects: 0.127833 ms CreateObjectMapping: 0.064125 ms MarkObjects: 2.219083 ms  DeleteObjects: 0.156292 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16d4bb000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.285 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.675 seconds
+Domain Reload Profiling: 960ms
+	BeginReloadAssembly (81ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (183ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (675ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (26ms)
+			ProcessInitializeOnLoadAttributes (155ms)
+			ProcessInitializeOnLoadMethodAttributes (8ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3215 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.3 MB). Loaded Objects now: 3828.
+Memory consumption went from 279.4 MB to 278.2 MB.
+Total: 2.700166 ms (FindLiveObjects: 0.117500 ms CreateObjectMapping: 0.048250 ms MarkObjects: 2.213833 ms  DeleteObjects: 0.315250 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
